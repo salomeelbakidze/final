@@ -1,0 +1,169 @@
+/*  480px-320px*/
+
+@media (max-width: 481px) {
+  /* header */
+  header {
+    padding-inline: 20px;
+  }
+  /* home_section1 */
+  .home_section1 {
+    height: 304px;
+  }
+  .home_section_title1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+  /* home_section2 */
+
+  .home_section2 {
+    padding: 64px 0 20px 20px;
+  }
+
+  .home_section_title2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+  /* footer */
+  footer {
+    padding-block: 30px;
+  }
+
+  /* artworks_section */
+
+  .artworks_title {
+    font-size: 16px;
+  }
+
+  .artworks_title {
+    padding-left: 8px;
+  }
+
+  .art_sort_button {
+    width: 61px;
+    height: 40px;
+  }
+  .art_sort_button_span {
+    display: none;
+  }
+
+  .artworks_section_article {
+    width: min(100%, 1200px);
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 339px;
+    grid-template-areas:
+      "CARD1 "
+      "CARD2 "
+      "CARD3 "
+      "CARD4";
+  }
+
+  .card1 {
+    /* background-color: aqua; */
+    grid-area: CARD1;
+  }
+  .card2 {
+    /* background-color: rgb(83, 106, 106); */
+    grid-area: CARD2;
+  }
+  .card3 {
+    /* background-color: #830404; */
+    grid-area: CARD3;
+  }
+  .card4 {
+    /* background-color: blue; */
+    grid-area: CARD4;
+  }
+  .card5 {
+    /* background-color: cadetblue; */
+    grid-area: CARD5;
+    display: none;
+  }
+  .card6 {
+    /* background-color: chartreuse; */
+    grid-area: CARD6;
+    display: none;
+  }
+  .card7 {
+    /* background-color: rgb(28, 20, 22); */
+    grid-area: CARD7;
+    display: none;
+  }
+  .card8 {
+    /* background-color: deeppink; */
+    grid-area: CARD8;
+    display: none;
+  }
+  .card9 {
+    /* background-color: rgb(197, 14, 93); */
+    grid-area: CARD9;
+    display: none;
+  }
+  .pages {
+    margin-left: 120px;
+  }
+}
+
+@media (max-width: 420px) {
+  .home_section_title1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 321px) {
+  /* header */
+  header {
+    padding-inline: 8px;
+  }
+
+  /* home_section */
+  .home_section2 {
+    padding: 48px 0 8px 8px;
+  }
+  .home_section_title2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* contact_section2 */
+
+  .contact_section2 {
+    padding: 48px 8px;
+  }
+
+  .contact_section_title2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 481px) {
+  /* artworks_section */
+  .pages4 {
+    display: none;
+  }
+
+  .art_sort_button {
+    height: 40px;
+    width: 61px;
+  }
+
+  /* contact_section2 */
+
+  .contact_section2 {
+    padding: 64px 24px;
+  }
+  .contact_section_title2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .main_div {
+    column-gap: 42px;
+  }
+}
