@@ -72,9 +72,6 @@
     display: none;
   }
   .artworks_section_article {
-    width: min(100%, 696px);
-
-    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 339px 339px;
@@ -123,9 +120,30 @@
     grid-area: CARD9;
     display: none;
   }
+}
 
-  .pages {
-    margin-left: 177px;
+@media (max-width: 730px) {
+  /* artworks section */
+
+  .artworks_title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .art_sort_button {
+    width: 61px;
+    height: 40px;
+    justify-content: center;
+  }
+
+  .art_sort_button_span {
+    display: none;
+  }
+}
+
+@media (max-width: 565px) {
+  .contact_section1 {
+    padding-inline: 32px;
   }
 }
 

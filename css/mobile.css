@@ -29,6 +29,46 @@
   footer {
     padding-block: 30px;
   }
+  /* artworks_section */
+  .pages4 {
+    display: none;
+  }
+
+  .art_sort_button {
+    height: 40px;
+    width: 61px;
+  }
+  /* contact_section1 */
+
+  .contact_section1 {
+    height: 560px;
+    padding-inline: 24px;
+  }
+  .Form_article {
+    padding: 24px 20px;
+  }
+
+  .form_title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .form_div1 {
+    column-gap: 32px;
+  }
+
+  /* contact_section2 */
+
+  .contact_section2 {
+    padding: 64px 24px;
+  }
+  .contact_section_title2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .main_div {
+    column-gap: 42px;
+  }
 
   /* artworks_section */
 
@@ -49,9 +89,8 @@
   }
 
   .artworks_section_article {
-    width: min(100%, 1200px);
+    margin-bottom: 48px;
 
-    margin: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 339px;
@@ -103,8 +142,9 @@
     grid-area: CARD9;
     display: none;
   }
-  .pages {
-    margin-left: 120px;
+  .pages1 {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -129,6 +169,35 @@
     font-size: 24px;
     line-height: 32px;
   }
+  /* contact_section1 */
+
+  .contact_section1 {
+    height: 496px;
+    padding-inline: 8px;
+  }
+
+  .Form_article {
+    padding: 16px 20px;
+  }
+
+  .form_title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  form {
+    row-gap: 24px;
+  }
+
+  .form_div1 {
+    flex-direction: column;
+    row-gap: 24px;
+  }
+
+  .form_button {
+    width: 100%;
+  }
 
   /* contact_section2 */
 
@@ -139,31 +208,5 @@
   .contact_section_title2 {
     font-size: 24px;
     line-height: 32px;
-  }
-}
-
-@media (max-width: 481px) {
-  /* artworks_section */
-  .pages4 {
-    display: none;
-  }
-
-  .art_sort_button {
-    height: 40px;
-    width: 61px;
-  }
-
-  /* contact_section2 */
-
-  .contact_section2 {
-    padding: 64px 24px;
-  }
-  .contact_section_title2 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  .main_div {
-    column-gap: 42px;
   }
 }
